@@ -2,7 +2,7 @@ let daysoftheweek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Fr
 let malenames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"]
 let femalenames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama",]
 
-function onsubmit() {
+function validateform() {
     let year = document.getElementById("YearField").value;
     let month = document.getElementById("MonthField").value;
     let day = document.getElementById("DateField").value;
@@ -57,7 +57,7 @@ var getuserdetails = function () {
     if (Inputgender === "Male") {
         akanName = malenames[day]
         document.getElementById("output").innerHTML = "Your Akan name is "+akanName;
-        
+        o
     }
     else if (Inputgender === "Female") {
         akanName = femalenames[day]
